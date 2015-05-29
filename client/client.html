@@ -1,0 +1,11 @@
+<template name="landing">
+<h1>Landing page</h1>
+<p>welcome to the landing page</p>
+<a id="gonext" href="{{ pathFor 'nextpage' }}">next</a>
+</template>
+
+<template name="nextpage">
+<h1>Next page</h1>
+<p>welcome to the landing page</p>
+<a href="{{ pathFor 'landing' }}">back</a>
+</template>
